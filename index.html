@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scratch & Win</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <section class="card">
+      <h1>Scratch & Win</h1>
+      <p class="subtitle">Scratch the silver area to reveal your prize</p>
+
+      <div class="scratch-wrapper">
+        <div class="prize" id="prizeText">Tap Start to Play</div>
+        <canvas id="scratchCanvas" width="320" height="180"></canvas>
+      </div>
+
+      <div class="actions">
+        <button id="startBtn">Start</button>
+        <button id="resetBtn">Reset</button>
+      </div>
+
+      <p class="note" id="statusText">Waiting to start...</p>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
