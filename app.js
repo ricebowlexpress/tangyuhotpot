@@ -1,3 +1,14 @@
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyDeVM-PCRuWtricowl9kWby83bAfn_-sSQ",
+  authDomain: "scratch-and-win-c8f9c.firebaseapp.com",
+  projectId: "scratch-and-win-c8f9c",
+  storageBucket: "scratch-and-win-c8f9c.firebasestorage.app",
+  messagingSenderId: "965544281170",
+  appId: "1:965544281170:web:892df1d63ce781d3decb8b",
+  measurementId: "G-DDK2HWVLLR"
+};
+
 const prizeText = document.getElementById("prizeText");
 const statusText = document.getElementById("statusText");
 const startBtn = document.getElementById("startBtn");
